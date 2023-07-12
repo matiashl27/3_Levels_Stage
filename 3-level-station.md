@@ -8,7 +8,7 @@ Before you start building the station you will need to source all the components
 
 ## Instructions
 
-These instructions will take you through how to assemble the 2-levels version of the station. There is also a [3-levels version](https://librehub.github.io/3_Levels_Stage/) if you need a room for placing your boards and protected them in the station.
+These instructions will take you through how to assemble the 3-levels version of the station. There is also a [2-levels version](https://librehub.github.io/2_Levels_Stage/) for education or other applications.
 
 The assembly is broken up into several steps:
 
