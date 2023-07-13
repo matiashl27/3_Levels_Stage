@@ -3,7 +3,7 @@
 {{BOM}}
 
 [Heat-set insert]: parts/mech/heat-set_insert.md "{cat:mechanic}"
-[M3x6mm cap head screw]: parts/mech/m3x6_screw.md "{cat:mechanic}"
+[M3x8mm cap head screw]: parts/mech/m3x8_screw.md "{cat:mechanic}"
 [M3x10mm cap head screw]: parts/mech/m3x10_screw.md "{cat:mechanic}" 
 [Top plate]: parts/materials/top-plate.md "{cat:lasercutpart}"
 [Soldering iron]: parts/tools/soldering-iron.md "{cat:tool}"
@@ -41,7 +41,7 @@ You will also need the parts you assembled in previous sections.
 
 ## Attach the focusing assembly {pagestep}
 
-* Use a [M3x6mm cap head screw]{qty: 2} on either side of the [focusing mechanism](fromstep){qty:1, cat:subassembly}, attach it to the top plate.
+* Use a [M3x8mm cap head screw]{qty: 2} on either side of the [focusing mechanism](fromstep){qty:1, cat:subassembly}, attach it to the top plate.
 
 ![](images/focus_assembly_top_attachment.jpg)
 ![](images/focus_assembly_top_attached.jpg)

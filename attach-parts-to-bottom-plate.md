@@ -26,6 +26,7 @@
 
 ## Attach the bottom plate and the foot {pagestep}
 
+* Place the bottom plate above the small standoffs. The four holes for attaching the Raspberry Pi should be on the opposite side of the focusing mechanism, as shown.
 * Attach each [foot][Foot-M] to one of the corners of the [bottom plate][Bottom plate](fromstep){qty:1}.
 * Use the [nut insertion tool][Nut tool] and the [2.5mm ball-ended hex key][2.5mm Ball-end Allen key] to secure the three parts together.
 * Nut traps should be accessible for future calibrations and upgrades.

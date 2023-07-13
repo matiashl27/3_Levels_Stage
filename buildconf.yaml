@@ -2,6 +2,7 @@ Affiliation: Latin American Hub for Bioimaging Through Open Hardware (LIBRE hub)
 Authors:
   - Matías Hurtado-Labarca
   - Pierre Padilla-Huamantinco
+  - Tobias Wenzel
 CustomCategories:
   Consumable:
     DisplayName: Consumables
@@ -32,15 +33,11 @@ CustomCategories:
     Reuse: false
 Email: librehub@uc.cl
 LandingPage: index.md
-License: CERN-OHL-1.2
+License: CERN-OHL-S-2.0
 Navigation:
   - Link: 3-level-station.md
-    Title: Build the 3-level microscope station
+    Title: Build the 3-level microscopy stage
   - Link: software-installation.md
     Title: Software Installation
   - Link: usage.md
-    Title: Use your Station
-  - Link: troubleshooting.md
-    Title: Troubleshooting
-  - Link: knowledge_base.md
-    Title: Knowledge base
+    Title: Use your Stage

@@ -6,7 +6,7 @@ Congratulations, you have now assembled your Strobe-Enhaced Microscope Station.
 
 [Raspberry Pi Power Supply]: parts/elect/rpi-power-supply.md "{cat:electronic}"
 [Strobe Power Supply]: parts/elect/strobe-power-supply.md "{cat:electronic}"
-[Voltage regulator]: parts/elect/voltage-regulator.md "{cat:electronic}"
+[Voltage regulator]: parts/elect/voltage-regulator.md "{cat:electronic, note:'This regulator has modifications documented [here](https://github.com/wenzel-lab/open-microfluidics-workstation/)'}"
 
 ## The completed station {pagestep}
 

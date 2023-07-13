@@ -1,15 +1,15 @@
 # Mount the electronics
 
-These instructions assume you use a Raspberry Pi v4, a Pi Hat, and the Strobe module.
+These instructions assume you have the custom electronic components pre-assembled.
 
 {{BOM}}
 
 [M3x25mm cap head screw]: parts/mech/m3x25mm-cap-head-screw.md "{cat:mechanic}"
 [M3 nut]: parts/mech/m3_nut.md "{cat:mechanic}"
 [Raspberry Pi]: parts/elect/rpi-v4.md "{cat:electronic}"
-[Pi Hat]: parts/elect/pi-hat.md "{cat:electronic}"
-[Strobe Module]: parts/elect/strobe-module.md "{cat:electronic}"
-[Strobe Cable]: parts/elect/strobe-cable.md "{cat:electronic}"
+[Pi Hat]: parts/elect/pi-hat.md "{cat:electronic, note:'This is a custom open-source board documented [here](https://github.com/wenzel-lab/open-microfluidics-workstation/)'}"
+[Strobe Module]: parts/elect/strobe-module.md "{cat:electronic, note:'This is a custom open-source board documented [here](https://github.com/wenzel-lab/open-microfluidics-workstation/)'}"
+[Strobe Cable]: parts/elect/strobe-cable.md "{cat:electronic, note:'This is a custom connector documented [here](https://github.com/wenzel-lab/open-microfluidics-workstation/)'}"
 [Needle-nose plier]: parts/tools/needle-nose_plier.md "{cat:tool}"
 [2.5mm Ball-end Allen key]: parts/tools/2.5mmBallEndAllenKey.md "{cat:tool}"
 [Spacer-S]: models/spacer-4mm.stl "{previewpage}"

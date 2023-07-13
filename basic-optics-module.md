@@ -2,12 +2,12 @@
 
 {{BOM}}
 
-[#1 pozidrive screwdriver]: parts/tools/pozidrive_1_screwdriver.md "{cat:tool}"
-[No 2 6.5mm self tapping screw]: parts/mech/SelfTap_PoziPan_No2x6.5_SS.md "{cat:mechanic}"
 [M3 nut]: parts/mech/m3_nut.md "{cat:mechanic}"
+[M2x5mm cap head screw]: parts/mech/m2x5_screw.md "{cat:mechanic}"
 [M3x10mm cap head screw]: parts/mech/m3x10_screw.md "{cat:mechanic}"
 [Raspberry Pi Camera Module v2]: parts/elect/rpi-camera-v2.md "{cat:electronic}"
 [Pi camera ribbon cable]: parts/elect/rpi-camera-ribbon-cable.md "{cat:electronic}"
+[1.5mm Ball-end Allen key]: parts/tools/1.5mmBallEndAllenKey.md "{cat:tool}"
 [Pi Camera lens tool]: parts/tools/pi_camera_lens_tool.md "{cat:tool, note: 'This should come with the Raspberry Pi Camera Module. If it is missing, you can 3D print a workaround lens remover.'}"
 [Lens spacer]: models/lens-spacer.stl "{previewpage}"
 [Pi Camera platform]: models/camera-platform.stl "{previewpage}"
@@ -54,7 +54,7 @@ Take the [lens spacer][Lens spacer](fromstep){qty:1, cat:printedpart} and confir
 
 * Take the Pi Camera and place it on top of the [pi camera platform][Pi Camera platform](fromstep){qty:1, cat:printedpart}.
 * Place the lens spacer over the camera
-* Use four [No 2 6.5mm self tapping screws][No 2 6.5mm self tapping screw]{qty:4} to secure the three parts together using a [#1 pozidrive screwdriver]{qty:1}
+* Use four [M2x5mm cap head screws][M2x5mm cap head screw]{qty:4} to secure the three parts together using a [1.5mm Ball-end Allen key]{qty:1}
 * Take care not to torque the screws.
 
 ![](images/low_cost_optics_assembly_camera.png)

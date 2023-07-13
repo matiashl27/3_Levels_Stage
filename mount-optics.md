@@ -16,8 +16,9 @@
 ## Adjust the optics assembly {pagestep}
 
 * Insert the Allen key through the teardrop-shaped hole on the front of the z-actuator until it engages with the mounting screw.
-* Slide the optics module up the keyhole as high as possible.
+* Slide the optics module up the keyhole.
 * Tighten the screw with the Allen key to lock the optics.
+* The optics module position can be changed later using the thumbwheel or mounting screw for different applications. 
 
 ![](images/adjust_optics.jpg)
 

@@ -4,8 +4,8 @@
 
 [M3x25mm hex head screw]: parts/mech/m3x25mm-hex-head-screw.md "{cat:mechanic}"
 [M3 washers]: parts/mech/m3-washer.md "{cat:mechanic}"
-[light oil]: parts/consumables/light-oil.md "{cat:consumable}"
-[M3 brass nut]: parts/mech/m3-brass_nut.md "{cat:mechanic}"
+[light oil]: parts/consumables/light-oil.md "{cat:consumable, note:'Optional'}"
+[M3 nut]: parts/mech/m3_nut.md "{cat:mechanic}"
 [O-ring]: parts/mech/o-ring.md "{cat:mechanic}"
 [Nut tool]: models/actuator-assembly-tools.stl "{previewpage}"
 [Band tool]: models/actuator-assembly-tools.stl "{previewpage}"
@@ -25,14 +25,14 @@
 
 ## Insert the nut {pagestep}
 
-* Push the [M3 brass nut]{qty:1} into the slot in the [focusing assembly][Focusing assembly](fromstep){qty:1, cat:printedpart} (using the [nut insertion tool][Nut tool](fromstep){qty:1, cat:printedtool})
+* Push the [M3 nut]{qty:1} into the slot in the [focusing assembly][Focusing assembly](fromstep){qty:1, cat:printedpart} (using the [nut insertion tool][Nut tool](fromstep){qty:1, cat:printedtool})
 
 ![](images/nut_insertion.jpg)
 ![](images/nut_inserted.jpg)
 
 ## Add the thumbwheel {pagestep}
 
-* Screw the [thumbwheel][Thumbwheel] assembly into the [M3 brass nut] in the [focusing assembly][Focusing assembly].
+* Screw the [thumbwheel][Thumbwheel] assembly into the [M3 nut] in the [focusing assembly][Focusing assembly].
 
 ![](images/thumbwheel_screwed_in.jpg)
 
