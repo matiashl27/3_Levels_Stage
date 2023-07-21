@@ -4,6 +4,9 @@ The strobe-enhanced microscopy stage is a free and open-source workstation for i
 
 This design is inspired by open-source hardware such as the [OpenFlexure flat-top microscope](https://rwb27.gitlab.io/openflexure-flat-top-microscope/).
 
+![](images/stage.png)
+![](images/stage_droplets.gif)
+
 Find about more about this platform and other open-source hardware for bioimaging on the [LIBRE hub website](https://librehub.github.io/).
 
 >i **Note:** This site has some sections that were adapted from [OpenFlexure Microscope](https://build.openflexure.org/openflexure-microscope/v7.0.0-beta1/low_cost_microscope) and [OpenFlexure Flat-top Microscope](https://rwb27.gitlab.io/openflexure-flat-top-microscope/1_preparing_laser_cut_parts) documentation to facilitate the assembly. 
