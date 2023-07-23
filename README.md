@@ -14,11 +14,11 @@ Find about more about this platform and other open-source hardware for bioimagin
 
 ### Instructions
 
-* [Assembly instructions](https://librehub.github.io/3_Levels_Stage/3-level-station.html)
-    * [Parts list](https://librehub.github.io/3_Levels_Stage/3-level-station_BOM.html)
-    * [Software installation](https://librehub.github.io/3_Levels_Stage/software-installation.html)
+* [Assembly instructions](https://wenzel-lab.github.io/strobe-enhanced-microscopy-stage/)
+    * [Parts list](https://wenzel-lab.github.io/strobe-enhanced-microscopy-stage/3-level-station_BOM.html)
+    * [Software installation](https://wenzel-lab.github.io/strobe-enhanced-microscopy-stage/software-installation.html)
 * Usage instructions
-	* [Software usage](https://librehub.github.io/3_Levels_Stage/usage.html)
+	* [Software usage](https://wenzel-lab.github.io/strobe-enhanced-microscopy-stage/usage.html)
 
 This project is documented with GitBuilding - an OpenSource project for documenting hardware projects. For more information on the GitBuilding project, or how
 to install GitBuilding please see the [GitBuilding website](http://gitbuilding.io)
@@ -26,11 +26,11 @@ to install GitBuilding please see the [GitBuilding website](http://gitbuilding.i
 ## Design files and source code
 
 * Hardware designs
-    * [Microscope hardware and assembly instructions (source)](https://github.com/LIBREhub/3_Levels_Stage)
-    * [Pi Hat](https://github.com/wenzel-lab/open-microfluidics-workstation/tree/master/module-pi/pi_pcb)
-    * [Strobe module](https://github.com/wenzel-lab/open-microfluidics-workstation/tree/master/module-fast-imaging)
+    * [Microscope hardware and assembly instructions (source)](https://github.com/wenzel-lab/strobe-enhanced-microscopy-stage)
+    * [Pi Hat](https://github.com/wenzel-lab/moldular-microfluidics-workstation-controller/tree/master/module-pi/pi_pcb)
+    * [Strobe module](https://github.com/wenzel-lab/moldular-microfluidics-workstation-controller/tree/master/module-fast-imaging)
 * Software source code
-    * [Microscope server](https://github.com/wenzel-lab/open-microfluidics-workstation/blob/master/module-pi/webapp.zip) (This code runs on the built-in Raspberry Pi and includes the web application for the user interface.)
+    * [Microscope server](https://github.com/wenzel-lab/moldular-microfluidics-workstation-controller/blob/master/module-pi/webapp.zip) (This code runs on the built-in Raspberry Pi and includes the web application for the user interface.)
     * Microscope operating system (This collates all software and builds a pre-written SD card image for the Raspberry Pi.) - Coming soon
  
 ### How do I edit the documentation?
