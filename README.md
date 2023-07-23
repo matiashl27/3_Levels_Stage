@@ -2,7 +2,7 @@
 
 The strobe-enhanced microscopy stage is a free and open-source workstation for imaging fast processes, particularly developed for microfluidic droplet generation. It uses the lens from the Raspberry Pi Camera to produce a microscope with a field of view of almost 1mm and a strobe illumination based on a high-power LED for imaging fast-moving objects. Custom electronics allow the synchronization between the LED and the camera to capture sharp images of fast-moving droplets and other objects.
 
-This design is inspired by open-source hardware such as the [OpenFlexure flat-top microscope](https://rwb27.gitlab.io/openflexure-flat-top-microscope/).
+Most parts of this stage are original designs, and some items were modified from the open-source hardware [OpenFlexure flat-top microscope](https://rwb27.gitlab.io/openflexure-flat-top-microscope/).
 
 Find about more about this platform and other open-source hardware for bioimaging on the [LIBRE hub website](https://librehub.github.io/).
 
@@ -59,4 +59,4 @@ This project is open-source and is released under the CERN open hardware license
 
 You're free to fork the project and enhance it. If you have any suggestions to improve it or add any additional functions make a pull-request or file an issue.
 
-All files have been designed using [Onshape](https://www.onshape.com/en/) (EDUCATION)
+All files have been designed using [Onshape](https://www.onshape.com/en/)
