@@ -87,7 +87,7 @@ GPIO pins states must be modified during the bootup sequence to use them with th
 
 ## Run the UI App {pagestep}
 
-Download the [zip file](https://github.com/wenzel-lab/moldular-microfluidics-workstation-controller/blob/master/module-pi/webapp_sems.rar), copy it, and extract the folder into your Home folder.
+Download the [zip file](https://github.com/wenzel-lab/moldular-microfluidics-workstation-controller/blob/master/module-pi/webapp.zip), copy it, and extract the folder into your Home folder.
 
 **Method 1:** Go to the web app folder and double click on `pi_webapp.py`. A programming editor will open the Python file, then run the code.
 
