@@ -56,4 +56,4 @@ For interactions in our team and with the community applies the [GOSH Code of Co
 
 ## License
 
-[CERN OHL 2W](LICENSE) © Pierre Pardilla, Matías Hurtado, and Tobias Wenzel. This project is Open Source Hardware - please acknowledge us when using the hardware or sharing modifications.
+[CERN OHL 2W](LICENSE) © Pierre Padilla-Huamantinco, Matías Hurtado, and Tobias Wenzel. This project is Open Source Hardware - please acknowledge us when using the hardware or sharing modifications.
