@@ -9,7 +9,7 @@ Black PLA filament	material	50 g
 Crimper	tool	1		
 Double-sided self adhesive tape	electronic	1		
 Double-sided thermal tape	electronic	1		
-Heat insert	mechanic	7		
+Heat-set insert	mechanic	7		
 High-power star LED	electronic	1		
 Laser cutting machine	tool	1		
 light oil	consumable	1 drop		Optional
@@ -30,7 +30,6 @@ Pi camera ribbon cable	electronic	1
 Pi Hat	electronic	1		This is a custom open-source board documented [here](https://github.com/wenzel-lab/open-microfluidics-workstation/)
 PLA filament	material	205 g		Of any colour you want
 Precision wire cutter	tool	1		
-Precision wire cutters	tool	1		
 Raspberry Pi	electronic	1		
 Raspberry Pi Camera Module v2	electronic	1		
 Raspberry Pi Power Supply	electronic	1		
