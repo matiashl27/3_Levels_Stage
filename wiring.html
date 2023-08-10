@@ -116,6 +116,11 @@
         Use your Stage
     </a>
     </li>
+<li class="not-active">
+    <a class="not-active" href="./variations.html">
+        Variations and complements
+    </a>
+    </li>
 
                 </ul>
             </nav>
@@ -127,7 +132,12 @@
 <h3 id="tool">Tools</h3>
 <ul>
 <li>1 <a Class="bom" href="parts/tools/2.5mmBallEndAllenKey.html">2.5mm Ball-end Allen key</a> </li>
-<li>1 <a Class="bom" href="parts/tools/needle-nose_plier.html">Needle-nose plier</a> </li>
+<li>1 <a Class="bom" href="parts/tools/pliers.html">Needle-nose plier</a> </li>
+<li>1 <a Class="bom" href="parts/tools/tweezers.html">Tweezers</a> </li>
+</ul>
+<h3 id="consumable">Consumables</h3>
+<ul>
+<li>1 <a Class="bom" href="parts/consumables/gloves.html">Nitrile gloves</a> </li>
 </ul>
 <h3 id="electronic">Electronic Components</h3>
 <ul>
@@ -138,8 +148,8 @@
 </ul>
 <h3 id="mechanic">Mechanical Components</h3>
 <ul>
-<li>4 <a Class="bom" href="parts/mech/m3_nut.html">M3 nut</a> </li>
-<li>4 <a Class="bom" href="parts/mech/m3x25mm-cap-head-screw.html">M3x25mm cap head screw</a> </li>
+<li>4 <a Class="bom" href="parts/mech/nuts.html">M3 nut</a> </li>
+<li>4 <a Class="bom" href="parts/mech/M3-25.html">M3x25mm cap head screw</a> </li>
 </ul>
 <h3 id="printedpart">Printed Parts</h3>
 <ul>
@@ -147,9 +157,9 @@
 <li>4 <a Class="bom" href="models/spacer-4mm.html">Spacer-S</a> </li>
 </ul>
 </div>
-<div class="info-block">
-<p><strong>Alternative electronics options</strong></p>
-<p>Currently, no alternative electronics have been tested yet, but you can find <a href="https://github.com/DropletKitchen/strobe" title="Light Strobing to Improve Images from Cameras">other solutions</a> based on different boards, such as Teensy board, for controlling a strobe.</p>
+<div class="caution-block">
+<p><strong>Caution</strong> </p>
+<p>Use <a href="parts/tools/tweezers.html">tweezers</a> and <a href="parts/consumables/gloves.html">gloves</a> to avoid directly touching the electronic components. This can avoid accidental damages.</p>
 </div>
 <h2 class="page-step" id="connect-the-camera">Step 1: Connect the camera</h2>
 <ul>
@@ -177,8 +187,8 @@
 <div class="gallery-show"><img id="gallery-show1" src="images/RPi_Pi-Hat_StrobeCable.jpg" alt=""/></div>
 <h2 class="page-step" id="mount-the-boards">Step 3: Mount the boards</h2>
 <ul>
-<li>Take four <a href="parts/mech/m3x25mm-cap-head-screw.html">M3x25mm cap head screws</a> and insert them into each hole from the Pi hat and the Raspberry Pi. Use a <a href="parts/tools/2.5mmBallEndAllenKey.html">2.5mm Ball-end Allen key</a>.</li>
-<li>Use a <a href="models/spacer-11mm.html">11mm spacer</a> in between the holes next to the power supply and USB connectors to improve the stacking. A <a href="parts/tools/needle-nose_plier.html">needle-nose plier</a> can be helpful to hold the spacer while you screw.</li>
+<li>Take four <a href="parts/mech/M3-25.html">M3x25mm cap head screws</a> and insert them into each hole from the Pi hat and the Raspberry Pi. Use a <a href="parts/tools/2.5mmBallEndAllenKey.html">2.5mm Ball-end Allen key</a>.</li>
+<li>Use a <a href="models/spacer-11mm.html">11mm spacer</a> in between the holes next to the power supply and USB connectors to improve the stacking. A <a href="parts/tools/pliers.html">needle-nose plier</a> can be helpful to hold the spacer while you screw.</li>
 </ul>
 <div class="gallery-thumb">
     <img onmouseover="getElementById('gallery-show2').src=this.src" src="images/prepare-electronics.jpg" alt="" />
@@ -187,9 +197,12 @@
     <img onmouseover="getElementById('gallery-show2').src=this.src" src="images/prepare-electronics_3.jpg" alt="" />
 </div>
 <div class="gallery-show"><img id="gallery-show2" src="images/prepare-electronics.jpg" alt=""/></div>
+<div class="help-block">
+<p>The 11mm spacers go only in the camera connection side</p>
+</div>
 <ul>
 <li>Use a <a href="models/spacer-4mm.html">4mm spacer</a> in between the assembly and the bottom plate.</li>
-<li>Place the assembly in the bottom plate and attach it to the surface using four <a href="parts/mech/m3_nut.html">M3 nuts</a>. A <a href="parts/tools/needle-nose_plier.html">needle-nose plier</a> can be helpful to hold the nut.</li>
+<li>Place the assembly in the bottom plate and attach it to the surface using four <a href="parts/mech/nuts.html">M3 nuts</a>. A <a href="parts/tools/pliers.html">needle-nose plier</a> can be helpful to hold the nut.</li>
 </ul>
 <div class="gallery-thumb">
     <img onmouseover="getElementById('gallery-show3').src=this.src" src="images/mount_spacers.jpg" alt="" />
@@ -199,6 +212,11 @@
     <img onmouseover="getElementById('gallery-show3').src=this.src" src="images/mount_boards_3.jpg" alt="" />
 </div>
 <div class="gallery-show"><img id="gallery-show3" src="images/mount_spacers.jpg" alt=""/></div>
+<hr />
+<div class="info-block">
+<p><strong>Alternative electronics options</strong></p>
+<p>Currently, no alternative electronics have been tested yet, but you can find <a href="https://github.com/DropletKitchen/strobe" title="Light Strobing to Improve Images from Cameras">other solutions</a> based on different boards, such as Teensy board, for controlling a strobe.</p>
+</div>
 <hr />
 <p><a href="mount-optics.html">Previous page</a> | <a href="illumination.html">Next page</a></p>
     </div>
