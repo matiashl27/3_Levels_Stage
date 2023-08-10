@@ -2,9 +2,9 @@
 
 {{BOM}}
 
-[M3x10mm cap head screw]: parts/mech/m3x10_screw.md "{cat:mechanic}"
-[M3x15mm cap head screw]: parts/mech/m3x15_screw.md "{cat:mechanic}"
-[M3 nut]: parts/mech/m3_nut.md "{cat:mechanic}"
+[M3x10mm cap head screw]: parts/mech/M3-10.md "{cat:mechanic}"
+[M3x15mm cap head screw]: parts/mech/M3-15.md "{cat:mechanic}"
+[M3 nut]: parts/mech/nuts.md "{cat:mechanic}"
 [Middle plate]: parts/materials/middle-plate.md "{cat:lasercutpart}"
 [2.5mm Ball-end Allen key]: parts/tools/2.5mmBallEndAllenKey.md "{cat:tool}"
 [Nut tool]: models/actuator-assembly-tools.stl "{previewpage}"

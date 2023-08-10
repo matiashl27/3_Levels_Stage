@@ -6,7 +6,7 @@ Authors:
 CustomCategories:
   Consumable:
     DisplayName: Consumables
-    Reuse: false
+    Reuse: true
   Electronic:
     DisplayName: Electronic Components
     Reuse: false
@@ -41,3 +41,8 @@ Navigation:
     Title: Software Installation
   - Link: usage.md
     Title: Use your Stage
+  - Link: variations.md
+    Title: Variations and complements
+hoverColor: '#555555'
+primaryColor: '#f1502f'
+secondaryColor: '#cccccc'

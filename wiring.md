@@ -4,20 +4,25 @@ These instructions assume you have the custom electronic components pre-assemble
 
 {{BOM}}
 
-[M3x25mm cap head screw]: parts/mech/m3x25mm-cap-head-screw.md "{cat:mechanic}"
-[M3 nut]: parts/mech/m3_nut.md "{cat:mechanic}"
+[M3x25mm cap head screw]: parts/mech/M3-25.md "{cat:mechanic}"
+[M3 nut]: parts/mech/nuts.md "{cat:mechanic}"
 [Raspberry Pi]: parts/elect/rpi-v4.md "{cat:electronic}"
 [Pi Hat]: parts/elect/pi-hat.md "{cat:electronic, note:'This is a custom open-source board documented [here](https://github.com/wenzel-lab/open-microfluidics-workstation/)'}"
 [Strobe Module]: parts/elect/strobe-module.md "{cat:electronic, note:'This is a custom open-source board documented [here](https://github.com/wenzel-lab/open-microfluidics-workstation/)'}"
 [Strobe Cable]: parts/elect/strobe-cable.md "{cat:electronic, note:'This is a custom connector documented [here](https://github.com/wenzel-lab/open-microfluidics-workstation/)'}"
-[Needle-nose plier]: parts/tools/needle-nose_plier.md "{cat:tool}"
+[Needle-nose plier]: parts/tools/pliers.md "{cat:tool}"
 [2.5mm Ball-end Allen key]: parts/tools/2.5mmBallEndAllenKey.md "{cat:tool}"
 [Spacer-S]: models/spacer-4mm.stl "{previewpage}"
 [Spacer-M]: models/spacer-11mm.stl "{previewpage}"
+[Nitrile gloves]: parts/consumables/gloves.md "{cat:consumable}"
+[Tweezers]: parts/tools/tweezers.md "{cat:tool}"
 
->i **Alternative electronics options**
->i
->i Currently, no alternative electronics have been tested yet, but you can find [other solutions] based on different boards, such as Teensy board, for controlling a strobe.
+
+
+>! **Caution** 
+>!
+>! Use [tweezers][Tweezers]{Qty:1} and [gloves][Nitrile gloves]{Qty:1} to avoid directly touching the electronic components. This can avoid accidental damages.
+
 
 [other solutions]: https://github.com/DropletKitchen/strobe "Light Strobing to Improve Images from Cameras"
 
@@ -51,6 +56,9 @@ These instructions assume you have the custom electronic components pre-assemble
 ![](images/prepare-electronics_2.jpg)
 ![](images/prepare-electronics_3.jpg)
 
+>? The 11mm spacers go only in the camera connection side
+
+
 * Use a [4mm spacer][Spacer-S](fromstep){qty: 4, cat:printedpart} in between the assembly and the bottom plate.
 * Place the assembly in the bottom plate and attach it to the surface using four [M3 nuts][M3 nut]{qty: 4}. A [needle-nose plier][Needle-nose plier] can be helpful to hold the nut.
 
@@ -59,3 +67,10 @@ These instructions assume you have the custom electronic components pre-assemble
 ![](images/mount_boards_1.jpg)
 ![](images/mount_boards_2.jpg)
 ![](images/mount_boards_3.jpg)  
+___
+
+
+
+>i **Alternative electronics options**
+>i
+>i Currently, no alternative electronics have been tested yet, but you can find [other solutions] based on different boards, such as Teensy board, for controlling a strobe.

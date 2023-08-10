@@ -2,16 +2,17 @@
 
 {{BOM}}
 
-[M3 nut]: parts/mech/m3_nut.md "{cat:mechanic}"
-[M2x5mm cap head screw]: parts/mech/m2x5_screw.md "{cat:mechanic}"
-[M3x10mm cap head screw]: parts/mech/m3x10_screw.md "{cat:mechanic}"
+[M3 nut]: parts/mech/nuts.md "{cat:mechanic}"
+[M2x5mm cap head screw]: parts/mech/M2-5.md "{cat:mechanic}"
+[M3x10mm cap head screw]: parts/mech/M3-10.md "{cat:mechanic}"
 [Raspberry Pi Camera Module v2]: parts/elect/rpi-camera-v2.md "{cat:electronic}"
 [Pi camera ribbon cable]: parts/elect/rpi-camera-ribbon-cable.md "{cat:electronic}"
 [1.5mm Ball-end Allen key]: parts/tools/1.5mmBallEndAllenKey.md "{cat:tool}"
 [Pi Camera lens tool]: parts/tools/pi_camera_lens_tool.md "{cat:tool, note: 'This should come with the Raspberry Pi Camera Module. If it is missing, you can 3D print a workaround lens remover.'}"
 [Lens spacer]: models/lens-spacer.stl "{previewpage}"
 [Pi Camera platform]: models/camera-platform.stl "{previewpage}"
-
+[Nitrile gloves]: parts/consumables/gloves.md "{cat:consumable}"
+[Tweezers]: parts/tools/tweezers.md "{cat:tool}"
 
 The imaging optics for this workstation version consist of the Raspberry Pi camera and the lens from the camera. To create a microscope, the lens is separated from the camera. This makes quite a good microscope objective with a field of view about 950μm across.
 
@@ -27,7 +28,7 @@ Take the [lens spacer][Lens spacer](fromstep){qty:1, cat:printedpart} and confir
 
 >! **Caution!**
 >!
->! The camera board is static sensitive.
+>! The camera board is static sensitive, use [nitrile gloves][Nitrile gloves]{Qty:1} to avoid damage.
 
 * Before touching the Pi Camera, touch a metal-earthed object. If you own one, consider wearing an anti-static strap.
 * Take the [Pi Camera][Raspberry Pi Camera Module v2]{qty:1} out of the package. Make sure to **hold it only by the sides of the board**.
@@ -43,6 +44,9 @@ Take the [lens spacer][Lens spacer](fromstep){qty:1, cat:printedpart} and confir
 
 ## Push-fit the lens {pagestep}
 
+
+
+* Use [tweezers][Tweezers]{Qty:1} to aid in picking up the lens.
 * Place the Pi camera lens on a clean surface with the side opposite the camera sensor on the bottom.
 * Push the lens spacer down onto the lens until it clicks into place.
 
@@ -66,6 +70,7 @@ Take the [lens spacer][Lens spacer](fromstep){qty:1, cat:printedpart} and confir
 * Only screw it in a couple of turns. About 5 mm of thread should still be visible
 
 ![](images/mount-screw.png)
+![](images/mount-screwII.jpg)
 ![](images/mount-screw-1.png)
 ![](images/mount-screw-2.png)
 
