@@ -2,13 +2,20 @@
 
 
 
-Part of the idea of this project is that it keeps improving, for that they can be many posible alternatives. These are a few of them:
+Part of the objective of this project is that it keeps improving. This can be achieved through various alternatives that take into consideration the different factors, including limitations and constant upgrades that the project and the users may require.
+
+These are some of the modifications:
+
+
 
 ####**Variations**
 
  * [Holder plates](variations/Holder-plates/Holder-plates.md)
 
 *  [3D printable plates](variations/3D-print-plates/3D-print-plates.md)
+
+*  [25mm Heat sink](variations/heatsink/heatsink.md)
+
 
 ####**Complements:**
 

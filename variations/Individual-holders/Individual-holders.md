@@ -1,7 +1,10 @@
 # Individual holders
 
 
-![](../../images/individual-holder.jpg)
+
+![](images/individual-holder.jpg)
+
+
 
 
 

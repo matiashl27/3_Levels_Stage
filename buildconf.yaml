@@ -3,6 +3,7 @@ Authors:
   - Pierre Padilla-Huamantinco
   - Matías Hurtado-Labarca
   - Tobias Wenzel
+AutoCompleteSubNav: false
 CustomCategories:
   Consumable:
     DisplayName: Consumables
@@ -42,6 +43,19 @@ Navigation:
   - Link: usage.md
     Title: Use your Stage
   - Link: variations.md
+    SubNavigation:
+      - Link: variations/Holder-plates/Holder-plates.md
+        Title: V/ Holder Plates
+      - Link: variations/3D-print-plates/3D-print-plates.md
+        Title: V/ 3D printable plates
+      - Link: variations/heatsink/heatsink.md
+        Title: V/ 25mm Heat sink
+      - Link: variations/Screen-holder/screen-holder.md
+        Title: C/ Screen holder
+      - Link: variations/Individual-holders/Individual-holders.md
+        Title: C/ Individual holders
+      - Link: variations/Syringe-pumps-link/syinge-pumps.md
+        Title: C/ Syringe pumps
     Title: Variations and complements
 hoverColor: '#555555'
 primaryColor: '#f1502f'
