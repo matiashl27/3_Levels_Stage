@@ -37,6 +37,29 @@ LandingPage: index.md
 License: CERN-OHL-S-2.0
 Navigation:
   - Link: 3-level-station.md
+    SubNavigation:
+      - Link: printing.md
+        Title: Print the plastic parts
+      - Link: laser-cutting.md
+        Title: Laser cut the acrylic parts
+      - Link: assemble-focus-mechanism.md
+        Title: Assemble the focus mechanism
+      - Link: basic-optics-module.md
+        Title: Assemble the basics optics module
+      - Link: attach-parts-to-top-plate.md
+        Title: Attach parts to the top plate
+      - Link: attach-parts-to-middle-plate.md
+        Title: Attach parts to the middle plate
+      - Link: attach-parts-to-bottom-plate.md
+        Title: Attach parts to the bottom plate
+      - Link: mount-optics.md
+        Title: Mount the optics
+      - Link: wiring.md
+        Title: Mount the electronics
+      - Link: illumination.md
+        Title: Assemble the illumination
+      - Link: finished.md
+        Title: Assembly complete
     Title: Build the 3-level microscopy stage
   - Link: software-installation.md
     Title: Software Installation
