@@ -68,17 +68,19 @@ Navigation:
   - Link: variations.md
     SubNavigation:
       - Link: variations/Holder-plates/Holder-plates.md
-        Title: V/ Holder Plates
+        Title: V/ Holder plates
       - Link: variations/3D-print-plates/3D-print-plates.md
         Title: V/ 3D printable plates
       - Link: variations/heatsink/heatsink.md
-        Title: V/ 25mm Heat sink
+        Title: V/ 25mm heat sink
+      - Link: variations/2_levels_stage/2_levels_stage.md
+        Title: V/ 2 levels station
       - Link: variations/Screen-holder/screen-holder.md
         Title: C/ Screen holder
       - Link: variations/Individual-holders/Individual-holders.md
         Title: C/ Individual holders
       - Link: variations/Syringe-pumps-link/syinge-pumps.md
-        Title: C/ Syringe pumps
+        Title: Syringe pumps and interface
     Title: Variations and complements
 hoverColor: '#555555'
 primaryColor: '#f1502f'

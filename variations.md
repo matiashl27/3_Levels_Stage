@@ -16,6 +16,7 @@ These are some of the modifications:
 
 *  [25mm Heat sink](variations/heatsink/heatsink.md)
 
+* [2 levels station](https://librehub.github.io/strobe-microscope-2level-version/)
 
 ####**Complements:**
 
