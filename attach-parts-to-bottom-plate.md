@@ -2,8 +2,8 @@
 
 {{BOM}}
 
-[M3x15mm cap head screw]: parts/mech/m3x15_screw.md "{cat:mechanic}"
-[M3 nut]: parts/mech/m3_nut.md "{cat:mechanic}"
+[M3x15mm cap head screw]: parts/mech/M3-15.md "{cat:mechanic}"
+[M3 nut]: parts/mech/nuts.md "{cat:mechanic}"
 [2.5mm Ball-end Allen key]: parts/tools/2.5mmBallEndAllenKey.md "{cat:tool}"
 [Bottom plate]: parts/materials/bottom-plate.md "{cat:lasercutpart}"
 [Standoff-S]: models/standoff-S.stl "{previewpage}"

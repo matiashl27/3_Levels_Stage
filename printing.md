@@ -20,10 +20,9 @@ We recommend the following printer settings:
 |Material       |PLA            |
 |Material Temperature |Recommended by the PLA brand|
 |Layer height   |0.2mm or less  |
-|Infill         |Printer default|
+|Infill         |Printer default or more|
 |Brim           |Recommended for all parts|
 |Slice gap closing radius |0.001mm |
-
 
 Test whether your printer can print the pieces for this station or other open-source designs. Download and print the [leg test] file. This will only use about [5 grams of PLA][PLA filament]{qty: 5g}.
 
@@ -43,10 +42,10 @@ Now you have tested your [3D printer][RepRap-style printer] and [filament][PLA f
 * [Thumbwheel]{output,qty:1}: [thumbwheel.stl](models/thumbwheel.stl){previewpage}
 * [Pi camera platform]{output,qty:1}: [camera-platform.stl](models/camera-platform.stl){previewpage}
 * [Lens spacer]{output,qty:1}: [lens-spacer.stl](models/lens-spacer.stl){previewpage} - **This must be printed in [black][Black PLA filament]{qty: 50g}!**
-* [Illumination base]{output,qty:1}: [illumination-base.stl](models/illumination-base.stl){previewpage} - **This must be printed with support**
+* [Illumination base]{output,qty:1}: [illumination-base.stl](models/illumination-base.stl){previewpage} - **This must be printed with supports**
 * [Illumination slider]{output,qty:1}: [illumination-slider.stl](models/illumination-slider.stl){previewpage}
 * [Illumination thumbscrew]{output,qty:1}: [illumination-thumbscrew.stl](models/illumination-thumbscrew.stl){previewpage}
-* [Illumination arm]{output,qty:1}: [led-arm.stl](models/led-arm.stl){previewpage} - **This must be printed with support**
+* [Illumination arm]{output,qty:1}: [led-arm.stl](models/led-arm.stl){previewpage} - **This must be printed with supports**
 * [Hinge pin]{output,qty:1}: [arm-pin.stl](models/arm-pin.stl){previewpage}
 * [LED cover]{output,qty:1}: [led-cover.stl](models/led-cover.stl){previewpage}
 * [Standoff-S]{output,qty:4}: [standoff-S.stl](models/standoff-S.stl){previewpage}
@@ -55,15 +54,11 @@ Now you have tested your [3D printer][RepRap-style printer] and [filament][PLA f
 * [Spacer-S]{output,qty:4}: [spacer-4mm.stl](models/spacer-4mm.stl){previewpage}
 * [Spacer-M]{output,qty:2}: [spacer-11mm.stl](models/spacer-11mm.stl){previewpage}
 
-In case you want to print the plates instead of laser cutting them: [top-plate.stl](models/top-plate.stl){previewpage}, [middle-plate.stl](models/middle-plate.stl){previewpage}, and [bottom-plate.stl](models/bottom-plate.stl){previewpage}
-
 You can [download all the STLs as a single zipfile](models/STLs.rar) (plates are not included).
 
 ## Clean-up of printed parts {pagestep}
 
->!! **Be careful when removing brim**
->!!
->!! To avoid injury, first remove the bulk of the brim without a knife. Remove the remaining brim with a peeling action as described below.
+>!! **Be careful when removing brim:** To avoid injury, first remove the bulk of the brim without a knife. Remove the remaining brim with a peeling action as described below.
 
 Carefully remove the printing brim from all parts. To remove brim:
 

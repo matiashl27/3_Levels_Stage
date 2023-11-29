@@ -2,11 +2,11 @@
 
 {{BOM}}
 
-[M3x25mm hex head screw]: parts/mech/m3x25mm-hex-head-screw.md "{cat:mechanic}"
-[M3 washers]: parts/mech/m3-washer.md "{cat:mechanic}"
+[M3x25mm hex head screw]: parts/mech/HEX-M3-25.md "{cat:mechanic}"
+[M3 washers]: parts/mech/washer.md "{cat:mechanic}"
 [light oil]: parts/consumables/light-oil.md "{cat:consumable, note:'Optional'}"
-[M3 nut]: parts/mech/m3_nut.md "{cat:mechanic}"
-[O-ring]: parts/mech/o-ring.md "{cat:mechanic}"
+[M3 nut]: parts/mech/nuts.md "{cat:mechanic}"
+[O-ring]: parts/mech/oring.md "{cat:mechanic}"
 [Nut tool]: models/actuator-assembly-tools.stl "{previewpage}"
 [Band tool]: models/actuator-assembly-tools.stl "{previewpage}"
 [Thumbwheel]: models/thumbwheel.stl "{previewpage}"
@@ -37,7 +37,7 @@
 ![](images/thumbwheel_screwed_in.jpg)
 
 ## Insert the O ring {pagestep}
-Next, we will insert the [O-ring] to complete the mechanism.
+* Next, we will insert the [O-ring] to complete the mechanism.
 
 ![](images/band_insertion_parts.jpg)
 

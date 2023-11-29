@@ -2,9 +2,9 @@
 
 {{BOM}}
 
-[M3x10mm cap head screw]: parts/mech/m3x10_screw.md "{cat:mechanic}"
-[M3x15mm cap head screw]: parts/mech/m3x15_screw.md "{cat:mechanic}"
-[M3 nut]: parts/mech/m3_nut.md "{cat:mechanic}"
+[M3x10mm cap head screw]: parts/mech/M3-10.md "{cat:mechanic}"
+[M3x15mm cap head screw]: parts/mech/M3-15.md "{cat:mechanic}"
+[M3 nut]: parts/mech/nuts.md "{cat:mechanic}"
 [Middle plate]: parts/materials/middle-plate.md "{cat:lasercutpart}"
 [2.5mm Ball-end Allen key]: parts/tools/2.5mmBallEndAllenKey.md "{cat:tool}"
 [Nut tool]: models/actuator-assembly-tools.stl "{previewpage}"
@@ -15,7 +15,7 @@ You will also need the parts you assembled in previous sections.
 
 ## Screw into the focusing assembly {pagestep}
 
-* Attach the [middle plate][Middle plate](fromstep){qty:1} to the [focusing mechanism](fromstep) using 3 [M3x10mm cap head screws][M3x10mm cap head screw]{qty: 3}.
+* Attach the [middle plate][Middle plate](fromstep){qty:1} to the [focusing mechanism](fromstep) using three [M3x10mm cap head screws][M3x10mm cap head screw]{qty: 3}.
 * Use a [2.5mm ball-ended hex key][2.5mm Ball-end Allen key]{qty:1} to turn the screws.
 
 ![](images/middle_plate_to_focus.jpg)
@@ -34,7 +34,7 @@ You will also need the parts you assembled in previous sections.
 ![](images/standoff-M.jpg)
 
 * Attach each small [standoff][Standoff-S] to one of the corners of the [middle plate][Middle plate].
-* Use the [nut insertion tool][Nut tool] and the [2.5mm ball-ended hex key][2.5mm Ball-end Allen key] to secure the three parts together
+* Use the [nut insertion tool][Nut tool] and the [2.5mm ball-ended hex key][2.5mm Ball-end Allen key] to secure the other three parts.
 
 ![](images/standoff-M-attached.jpg)
 ![](images/standoff-M-attached-1.jpg)

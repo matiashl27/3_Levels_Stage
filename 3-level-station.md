@@ -1,14 +1,12 @@
 # 3-Level microscopy stage
 
-This is the standard research version of the strobe-enhanced microscopy stage. It is a fully functioning laboratory-grade microscope for imaging fast-moving objects.
-
 ![](images/3-level-station.jpg)
 
 Before you start building the station, you will need to source all the components listed in our [bill of materials]{BOM}, which is given on the next page.
 
 ## Instructions
 
-These instructions will take you through how to assemble the 3-level version of the stage. There is also a [2-level version](https://librehub.github.io/2_Levels_Stage/) for education or other applications.
+These instructions will take you through how to assemble the 3-level version of the stage. For more designs, go to [Customisation and accessories](variants_accesories.md).
 
 The assembly is described in several steps:
 
