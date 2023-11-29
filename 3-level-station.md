@@ -1,4 +1,4 @@
-# 3-Level microscopy stage
+# 3-level microscopy stage
 
 ![](images/3-level-station.jpg)
 
