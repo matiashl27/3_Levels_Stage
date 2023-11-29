@@ -1,8 +1,10 @@
 Name in documentation	Category	Qty	Full Name	Notes
 7-inch capacitive touch screen for Raspberry Pi	part	1		
 actuator foot	printedpart	1		
+base long legs	printedpart	4		
 base of the light holder	printedpart	1		
 base piece	printedpart	1		
+base plate	lasercutpart	1		
 camera holder	printedpart	1		
 cap of the light holder	printedpart	1		
 focusing regulator	printedpart	1		
@@ -10,9 +12,9 @@ gripper	printedtool	1
 heat inserts	part	6	Heat inserts	
 hinge of the light holder	printedpart	1		
 M3 HEX key	tool	1		
-M3 nut	part	14		
+M3 nut	part	18		
 M3x10 screw	part	15	Screw	
-M3x15 screw	part	4	Screw	
+M3x15 screw	part	8	Screw	
 M3x20 HEX screw	part	1	M3 HEX screw	
 M3x20 X screw	part	1	M3 X Screw	
 M3x5 screw	part	2		
@@ -24,7 +26,7 @@ piler	tool	1
 screen cover	printedpart	1		
 screw washers	part	2		
 screwdriver	tool	1		
-short base legs	printedpart	4		
+short middle legs	printedpart	4		
 slide knob	printedpart	1		
 sliding piece of the light holder	printedpart	1		
 soldering iron	tool	1		
