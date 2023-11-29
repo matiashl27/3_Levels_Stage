@@ -61,27 +61,14 @@ Navigation:
       - Link: finished.md
         Title: Assembly complete
     Title: Build the 3-level microscopy stage
-  - Link: software-installation.md
+  - Link: software/software-installation.md
     Title: Software Installation
   - Link: usage.md
     Title: Use your Stage
-  - Link: variations.md
-    SubNavigation:
-      - Link: variations/Holder-plates/Holder-plates.md
-        Title: V/ Holder plates
-      - Link: variations/3D-print-plates/3D-print-plates.md
-        Title: V/ 3D printable plates
-      - Link: variations/heatsink/heatsink.md
-        Title: V/ 25mm heat sink
-      - Link: variations/2_levels_stage/2_levels_stage.md
-        Title: V/ 2 levels station
-      - Link: variations/Screen-holder/screen-holder.md
-        Title: C/ Screen holder
-      - Link: variations/Individual-holders/Individual-holders.md
-        Title: C/ Individual holders
-      - Link: variations/Syringe-pumps-link/syinge-pumps.md
-        Title: Syringe pumps and interface
-    Title: Variations and complements
+  - Link: troubleshooting.md
+    Title: Troubleshooting
+  - Link: variants_accesories.md
+    Title: Customisation and accessories
 hoverColor: '#555555'
 primaryColor: '#f1502f'
 secondaryColor: '#cccccc'

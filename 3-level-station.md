@@ -6,7 +6,7 @@ Before you start building the station, you will need to source all the component
 
 ## Instructions
 
-These instructions will take you through how to assemble the 3-level version of the stage. There is also a [2-level version](https://librehub.github.io/strobe-microscope-2level-version/2-level-station.html) for education or other applications.
+These instructions will take you through how to assemble the 3-level version of the stage. For more designs, go to [Customisation and accessories](variants_accesories.md).
 
 The assembly is described in several steps:
 
@@ -21,6 +21,3 @@ The assembly is described in several steps:
 1. [.](wiring.md){step}
 1. [.](illumination.md){step}
 1. [.](finished.md){step}
-
-
-
