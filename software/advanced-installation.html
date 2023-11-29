@@ -5,10 +5,10 @@
     <title>Strobe-enhanced microscopy stage</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="./assets/favicon.ico" />
+    <link rel="shortcut icon" href="../assets/favicon.ico" />
 
-    <link href="./static/style.css" rel="stylesheet">
-                <link href="./assets/style.css" rel="stylesheet">
+    <link href="../static/style.css" rel="stylesheet">
+                <link href="../assets/style.css" rel="stylesheet">
                 
 </head>
 <body>
@@ -35,32 +35,32 @@
                 </a>
                 <ul class="nav-list">
                 <li>
-    <a class="navhome" href="./">
+    <a class="navhome" href="../">
         Strobe-enhanced microscopy stage
     </a>
 </li>
 <li class="not-active">
-    <a class="not-active" href="./3-level-station.html">
+    <a class="not-active" href="../3-level-station.html">
         Build the 3-level microscopy stage
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="./software/software-installation.html">
+    <a class="not-active" href="../software/software-installation.html">
         Software Installation
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="./usage.html">
+    <a class="not-active" href="../usage.html">
         Use your Stage
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="./troubleshooting.html">
+    <a class="not-active" href="../troubleshooting.html">
         Troubleshooting
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="./variants_accesories.html">
+    <a class="not-active" href="../variants_accesories.html">
         Customisation and accessories
     </a>
     </li>
@@ -69,13 +69,13 @@
             </nav>
         </div>
         <div class="wrapper">
-    <h1 id="software-installation">Software Installation</h1>
+    <h1 id="advanced-installation">Advanced Installation</h1>
 <h2 class="page-step" id="write-your-sd-card">Step 1: Write your SD Card</h2>
-<p>You must install an operating system first to set up and use the Raspberry Pi board. Raspbian or Raspberry Pi OS is a Debian-based computer operating system for Raspberry Pi board. There are several OS versions for the workstation. Raspberry Pi OS 32-bit must be installed.</p>
+<p>You must install an operating system first to set up and use the Raspberry Pi board. Bullseye OS is a Debian-based computer operating system for Raspberry Pi board. Raspberry Pi OS 32-bit must be installed.</p>
 <div class="info-block">
-<p><strong>Coming soon:</strong> a pre-built SD card image that contains a full operating system with all the necessary software pre-installed. </p>
+<p>A pre-built SD card image is available. Go to <a href="software-installation.html" title="">Simple Installation</a> and follow the instructions. </p>
 </div>
-<p><strong>Before you start, please get:</strong></p>
+<p><strong>Before you start, please make sure you have:</strong></p>
 <ul>
 <li>A computer with Internet</li>
 <li>A MicroSD card</li>
@@ -84,16 +84,16 @@
 </ul>
 <p><strong>To write your MicroSD card:</strong></p>
 <ul>
-<li>Download the latest .img file from <a href="https://www.raspberrypi.com/software/operating-systems/" target="_blank" title="">Raspberry Pi website</a>.</li>
+<li>Download the recommended .img file from <a href="https://www.raspberrypi.com/software/operating-systems/" target="_blank" title="">Raspberry Pi website</a> or install <a href="https://www.raspberrypi.com/software/" target="_blank" title="">Raspberry Pi imager</a> on your computer to access to an image.</li>
 <li>Use an adapter to connect your MicroSD card to your computer.</li>
 <li>Use a program such as <a href="https://www.balena.io/etcher" target="_blank" title="">Etcher</a> or <a href="https://www.raspberrypi.com/software/" target="_blank" title="">Raspberry Pi imager</a> to flash the .img file onto your MicroSD card.</li>
 </ul>
 <p>More detailed information on installing a Raspberry Pi operating system image onto an SD card can be found <a href="https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system" target="_blank" title="">here on the Raspberry Pi website</a>.</p>
 <p><strong>First boot:</strong></p>
-<p>Connect your Pi to a display, mouse, keyboard, and power. When the Pi first boots, you will be asked to complete a quick setup before rebooting.</p>
+<p>Connect your Pi to a display, mouse, keyboard, and power source. When the Pi first boots, you will be asked to complete a quick setup before rebooting.</p>
 <p>Once you have installed and configured the Raspberry Pi OS, you can install the User Interface App.</p>
-<h2 class="page-step" id="enable-ssh-spi-and-camera">Step 2: Enable SSH, SPI, and Camera</h2>
-<p><strong>Method 1:</strong> Use the graphical tool "Raspberry Pi Configuration". This is found under Menu &gt; Preferences &gt; Raspberry Pi Configuration. Then you must select the "Interfaces" tab and set SSH, SPI, and Camera to "Enabled".</p>
+<h2 class="page-step" id="enable-ssh-spi-vnc-and-camera">Step 2: Enable SSH, SPI, VNC and Camera</h2>
+<p><strong>Method 1:</strong> Use the graphical tool "Raspberry Pi Configuration". This is found under Menu &gt; Preferences &gt; Raspberry Pi Configuration. Then you must select the "Interfaces" tab and set SSH, SPI, VNC and Camera to "Enabled".</p>
 <p><strong>Method 2:</strong> From the command line or Terminal window, start by running <code>sudo raspi-config</code>. This will launch the raspi-config utility:</p>
 <ul>
 <li>Select “Interfacing Options”.</li>
@@ -128,7 +128,7 @@
 </code></pre></div>
 
 <p><strong>Method 1:</strong> Use the terminal window and install each of the above libraries with <code>pip install</code>. Example: <code>pip install Flask==1.0.2</code></p>
-<p><strong>Method 2:</strong> Download <a href="https://github.com/wenzel-lab/open-microfluidics-workstation/blob/master/module-pi/requirements.txt" target="_blank" title="">requirements.txt</a> file and copy it into your Home folder on your Pi. Use the terminal window and install all the libraries with <code>pip install -r requirements.txt</code> </p>
+<p><strong>Method 2:</strong> Download <a href="https://github.com/wenzel-lab/open-microfluidics-workstation/blob/master/software/requirements.txt" target="_blank" title="">requirements.txt</a> file and copy it into your Home folder on your Pi. Use the terminal window and install all the libraries with <code>pip install -r requirements.txt</code> </p>
 <div class="info-block">
 <p>Use <code>pip list</code> to verify which modules are installed and their versions. </p>
 </div>
@@ -143,7 +143,7 @@
 <p>It is very useful to use the command <code>raspi-gpio get</code> to look at the setup of the GPIO pins to check that they are as you expect.</p>
 </div>
 <h2 class="page-step" id="run-the-ui-app">Step 7: Run the UI App</h2>
-<p>Download the <a href="https://github.com/wenzel-lab/moldular-microfluidics-workstation-controller/blob/master/module-pi/webapp.zip" target="_blank" title="">zip file</a>, copy it, and extract the folder into your Home folder.</p>
+<p>Download the <a href="">zip file</a>, copy it, and extract the folder into your Home folder.</p>
 <p><strong>Method 1:</strong> Go to the web app folder and double click on <code>pi_webapp.py</code>. A programming editor will open the Python file, then run the code.</p>
 <p><strong>Method 2:</strong> Use the terminal window, then <code>cd webapp</code> and <code>python pi_webapp.py</code></p>
 <p>Use a browser and go to <code>https://0.0.0.0:5000</code> to use the Web App</p>
@@ -161,12 +161,12 @@
 <footer class="site-footer">
     <div class="wrapper">
         <a target="_blank" rel="noopener noreferrer" href="https://gitbuilding.io">
-    <img class="icon" src="./static/Logo/GitBuilding500x.png" alt="GitBuilding logo">
+    <img class="icon" src="../static/Logo/GitBuilding500x.png" alt="GitBuilding logo">
     <span class="info">Documentation powered by GitBuilding</span>
 </a>
     <p class="author">©2023 Pierre Padilla-Huamantinco, Matías Hurtado-Labarca, and Tobias Wenzel</p>
     <p class="email">Contact: <a href="mailto:librehub@uc.cl">librehub@uc.cl</a></p>
-    <p class="license">Strobe-enhanced microscopy stage is released under <a href="license.html">CERN-OHL-S-2.0</a>.</p>
+    <p class="license">Strobe-enhanced microscopy stage is released under <a href="../license.html">CERN-OHL-S-2.0</a>.</p>
 
     </div>
 </footer></body>

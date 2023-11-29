@@ -44,8 +44,8 @@
         Build the 3-level microscopy stage
     </a>
     </li>
-<li class="not-active">
-    <a class="not-active" href="../software/software-installation.html">
+<li class="active">
+    <a class="active" href="../software/software-installation.html">
         Software Installation
     </a>
     </li>
@@ -69,20 +69,31 @@
             </nav>
         </div>
         <div class="wrapper">
-    <h1 id="3d-tube-holders">3D tube holders</h1>
-<p><img alt="" src="images/3d-tube-holders.jpg" title="" /></p>
-<p>This is a modular and pluggable system designed for holding laboratory tubes. They can be easily 3D printed with PLA or other filament types (PTEG recommended for use in incubators). The dovetail slots ensure a perfect fit for all pieces.</p>
-<p><a href="models/0.2ml-double.html" title="">0.2ml double</a></p>
-<p><a href="models/0.6ml-double.html" title="">0.6ml double</a></p>
-<p><a href="models/1.5ml-single.html" title="">1.5ml single</a></p>
-<p><a href="models/50ml-single.html" title="">50ml single</a></p>
-<p><a href="models/Cryo-vial-single.html" title="">Cryo vial single</a></p>
-<p><a href="models/Cuvettes-double-thicker.html" title="">Cuvettes double thicker</a></p>
-<p><a href="models/Cuvettes-double-thinner.html" title="">Cuvettes double thinner</a></p>
-<p>The source files can be found <a href="https://cad.onshape.com/documents/97d51c388847ba8cb8413853/w/289142d28ccd54a067c097cd/e/32d5910bef8d29fe50dcddab" target="_blank" title="">here</a> (OnShape)</p>
+    <h1 id="software-installation">Software Installation</h1>
+<p>The simplest way to set up the Raspberry Pi is to download the pre-built SD card image that contains a full operating system with all the necessary software pre-installed.</p>
 <div class="info-block">
-<p>These designs correspond to improvements of the original models from <a href="https://dormantbiologylab.org/resources/" target="_blank" title="">Dormant Biology Lab</a>.</p>
+<p>If you are familiar with command lines, go to <a href="advanced-installation.html" title="">Advanced Installation</a> and follow the instructions.</p>
 </div>
+<h2 class="page-step" id="download-sems-os">Step 1: Download SEMS OS</h2>
+<ul>
+<li>Click <a href="https://drive.google.com/file/d/1Vi45Qx171UzSz13v-zXnuIWUdMhgsN83/view?usp=sharing" target="_blank" title="">here</a> to download the custom image. <strong>Required:</strong> Raspberry Pi 4 Model B (2GB RAM) or better.</li>
+</ul>
+<h2 class="page-step" id="write-your-sd-card">Step 2: Write your SD Card</h2>
+<ul>
+<li>Connect your MicroSD card to your computer. <strong>Required:</strong> a 8GB MicroSD card or better.</li>
+<li>Use a program such as <a href="https://www.balena.io/etcher" target="_blank" title="">Etcher</a> or <a href="https://www.raspberrypi.com/software/" target="_blank" title="">Raspberry Pi imager</a> to flash the .img file onto your MicroSD card.</li>
+</ul>
+<p>More detailed information on installing a Raspberry Pi operating system image onto an SD card can be found <a href="https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system" target="_blank" title="">here on the Raspberry Pi website</a>.</p>
+<h2 class="page-step" id="first-boot-and-use">Step 3: First boot and use</h2>
+<ul>
+<li>Mount the microSD card with the OS on your Pi.</li>
+<li>Connect your Pi to a display, mouse, keyboard, and power source. When the Pi first boots, you could be asked to complete a quick setup or install updates.</li>
+<li>Click on the Desktop shortcut to start using the web app.</li>
+</ul>
+<h2 class="page-step" id="captured-images">Step 4: Captured images</h2>
+<ul>
+<li>Go to this directory <code>/home/pi/webapp/snapshots</code> to find and download the captured images.</li>
+</ul>
     </div>
 </div>
 <footer class="site-footer">

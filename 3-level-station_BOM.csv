@@ -25,11 +25,11 @@ M3x25mm hex head screw	mechanic	1	M3 HEX screw
 M3x8mm cap head screw	mechanic	2	Screw	
 Male Crimp Pin	electronic	2		
 Needle-nose plier	tool	1		
-Nitrile gloves	consumable	1		
+Nitrile gloves	consumable	2		
 O-ring	mechanic	1		
 Pi Camera lens tool	tool	1		This should come with the Raspberry Pi Camera Module. If it is missing, you can 3D print a workaround lens remover.
 Pi camera ribbon cable	electronic	1		
-Pi Hat	electronic	1		This is a custom open-source board documented [here](https://github.com/wenzel-lab/open-microfluidics-workstation/)
+Pi HAT	electronic	1		This is a custom open-source board documented [here](https://github.com/wenzel-lab/open-microfluidics-workstation/)
 PLA filament	material	205 g		Of any colour you want
 Precision wire cutter	tool	1		
 Raspberry Pi	electronic	1		
@@ -41,6 +41,5 @@ Star-LED lens	optical	1
 Strobe Cable	electronic	1		This is a custom connector documented [here](https://github.com/wenzel-lab/open-microfluidics-workstation/)
 Strobe Module	electronic	1		This is a custom open-source board documented [here](https://github.com/wenzel-lab/open-microfluidics-workstation/)
 Strobe Power Supply	electronic	1	Strobe Power Supply	
-Tweezers	tool	1		
 Utility knife	tool	1		Not a scalpel!
 Voltage regulator	electronic	1		This regulator has modifications documented [here](https://github.com/wenzel-lab/open-microfluidics-workstation/)

@@ -102,7 +102,7 @@
             </ul>
     </li>
 <li class="not-active">
-    <a class="not-active" href="./software-installation.html">
+    <a class="not-active" href="./software/software-installation.html">
         Software Installation
     </a>
     </li>
@@ -112,8 +112,13 @@
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="./variations.html">
-        Variations and complements
+    <a class="not-active" href="./troubleshooting.html">
+        Troubleshooting
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./variants_accesories.html">
+        Customisation and accessories
     </a>
     </li>
 
@@ -122,21 +127,19 @@
         </div>
         <div class="wrapper">
     <h1 id="mount-the-electronics">Mount the electronics</h1>
-<p>These instructions assume you have the custom electronic components pre-assembled.</p>
 <div class="pagebom">
 <h3 id="tool">Tools</h3>
 <ul>
 <li>1 <a Class="bom" href="parts/tools/2.5mmBallEndAllenKey.html">2.5mm Ball-end Allen key</a> </li>
 <li>1 <a Class="bom" href="parts/tools/pliers.html">Needle-nose plier</a> </li>
-<li>1 <a Class="bom" href="parts/tools/tweezers.html">Tweezers</a> </li>
 </ul>
 <h3 id="consumable">Consumables</h3>
 <ul>
-<li>1 <a Class="bom" href="parts/consumables/gloves.html">Nitrile gloves</a> </li>
+<li>2 <a Class="bom" href="parts/consumables/gloves.html">Nitrile gloves</a> </li>
 </ul>
 <h3 id="electronic">Electronic Components</h3>
 <ul>
-<li>1 <a Class="bom" href="parts/elect/pi-hat.html">Pi Hat</a>    - This is a custom open-source board documented <a href="https://github.com/wenzel-lab/open-microfluidics-workstation/" target="_blank" title="">here</a></li>
+<li>1 <a Class="bom" href="parts/elect/pi-hat.html">Pi HAT</a>    - This is a custom open-source board documented <a href="https://github.com/wenzel-lab/open-microfluidics-workstation/" target="_blank" title="">here</a></li>
 <li>1 <a Class="bom" href="parts/elect/rpi-v4.html">Raspberry Pi</a> </li>
 <li>1 <a Class="bom" href="parts/elect/strobe-cable.html">Strobe Cable</a>    - This is a custom connector documented <a href="https://github.com/wenzel-lab/open-microfluidics-workstation/" target="_blank" title="">here</a></li>
 <li>1 <a Class="bom" href="parts/elect/strobe-module.html">Strobe Module</a>    - This is a custom open-source board documented <a href="https://github.com/wenzel-lab/open-microfluidics-workstation/" target="_blank" title="">here</a></li>
@@ -152,19 +155,20 @@
 <li>4 <a Class="bom" href="models/spacer-4mm.html">Spacer-S</a> </li>
 </ul>
 </div>
+<p>These instructions assume you have the custom electronic components pre-assembled.</p>
 <div class="caution-block">
-<p><strong>Caution</strong> </p>
-<p>Use <a href="parts/tools/tweezers.html">tweezers</a> and <a href="parts/consumables/gloves.html">gloves</a> to avoid directly touching the electronic components. This can avoid accidental damages.</p>
+<p><strong>Caution!</strong> The electronic boards are static sensitive. Before touching them, touch a metal-earthed object. If you own one, consider wearing an anti-static strap.</p>
 </div>
 <h2 class="page-step" id="connect-the-camera">Step 1: Connect the camera</h2>
 <ul>
+<li>Use <a href="parts/consumables/gloves.html">nitrile gloves</a> to manipulate electronic components. </li>
 <li>Insert the ribbon cable from the optics module into the camera port of the <a href="parts/elect/rpi-v4.html">Raspberry Pi</a>, ensuring the contacts are on the opposite side of the clasp. There are <a href="https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2" target="_blank" title="">detailed instructions on the Raspberry Pi website</a>.</li>
 </ul>
 <p><img alt="" src="images/RPi_RibbonCable.jpg" title="" /></p>
 <h2 class="page-step" id="prepare-the-electronics">Step 2: Prepare the electronics</h2>
 <ul>
-<li>Place the <a href="parts/elect/strobe-module.html">strobe module</a> over the <a href="parts/elect/pi-hat.html">Pi hat</a>.</li>
-<li>Mount the Pi hat on the Raspberry Pi GPIO headers. There is a space to place the ribbon cable.</li>
+<li>Place the <a href="parts/elect/strobe-module.html">strobe module</a> over the <a href="parts/elect/pi-hat.html">Pi HAT</a>.</li>
+<li>Mount the Pi HAT on the Raspberry Pi GPIO headers. There is a space to place the ribbon cable.</li>
 </ul>
 <div class="gallery-thumb">
     <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/Pi-Hat_StrobeModule.jpg" alt="" />
@@ -173,7 +177,7 @@
 </div>
 <div class="gallery-show"><img id="gallery-show0" src="images/Pi-Hat_StrobeModule.jpg" alt=""/></div>
 <ul>
-<li>Connect the 5-pin double row DuPont female connector of the <a href="parts/elect/strobe-cable.html">strobe cable</a> to the Pi hat.</li>
+<li>Connect the 5-pin double row DuPont female connector of the <a href="parts/elect/strobe-cable.html">strobe cable</a> to the Pi HAT.</li>
 </ul>
 <div class="gallery-thumb">
     <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/RPi_Pi-Hat_StrobeCable.jpg" alt="" />
@@ -183,7 +187,7 @@
 <h2 class="page-step" id="mount-the-boards">Step 3: Mount the boards</h2>
 <ul>
 <li>Take four <a href="parts/mech/M3-25.html">M3x25mm cap head screws</a> and insert them into each hole from the Pi hat and the Raspberry Pi. Use a <a href="parts/tools/2.5mmBallEndAllenKey.html">2.5mm Ball-end Allen key</a>.</li>
-<li>Use a <a href="models/spacer-11mm.html">11mm spacer</a> in between the holes next to the power supply and USB connectors to improve the stacking. A <a href="parts/tools/pliers.html">needle-nose plier</a> can be helpful to hold the spacer while you screw.</li>
+<li>Use a <a href="models/spacer-11mm.html">11mm spacer</a> in between the holes next to the power supply and USB connectors. A <a href="parts/tools/pliers.html">needle-nose plier</a> can be helpful to hold the spacer while you screw.</li>
 </ul>
 <div class="gallery-thumb">
     <img onmouseover="getElementById('gallery-show2').src=this.src" src="images/prepare-electronics.jpg" alt="" />
@@ -192,12 +196,9 @@
     <img onmouseover="getElementById('gallery-show2').src=this.src" src="images/prepare-electronics_3.jpg" alt="" />
 </div>
 <div class="gallery-show"><img id="gallery-show2" src="images/prepare-electronics.jpg" alt=""/></div>
-<div class="help-block">
-<p>The 11mm spacers go only in the camera connection side</p>
-</div>
 <ul>
-<li>Use a <a href="models/spacer-4mm.html">4mm spacer</a> in between the assembly and the bottom plate.</li>
-<li>Place the assembly in the bottom plate and attach it to the surface using four <a href="parts/mech/nuts.html">M3 nuts</a>. A <a href="parts/tools/pliers.html">needle-nose plier</a> can be helpful to hold the nut.</li>
+<li>Use a <a href="models/spacer-4mm.html">4mm spacer</a> in between the electronic assembly and the bottom plate.</li>
+<li>Place the electronic assembly in the bottom plate and attach it to the surface using four <a href="parts/mech/nuts.html">M3 nuts</a>. A <a href="parts/tools/pliers.html">needle-nose plier</a> can be helpful to hold the nut.</li>
 </ul>
 <div class="gallery-thumb">
     <img onmouseover="getElementById('gallery-show3').src=this.src" src="images/mount_spacers.jpg" alt="" />
@@ -207,11 +208,6 @@
     <img onmouseover="getElementById('gallery-show3').src=this.src" src="images/mount_boards_3.jpg" alt="" />
 </div>
 <div class="gallery-show"><img id="gallery-show3" src="images/mount_spacers.jpg" alt=""/></div>
-<hr />
-<div class="info-block">
-<p><strong>Alternative electronics options</strong></p>
-<p>Currently, no alternative electronics have been tested yet, but you can find <a href="https://github.com/DropletKitchen/strobe" title="Light Strobing to Improve Images from Cameras">other solutions</a> based on different boards, such as Teensy board, for controlling a strobe.</p>
-</div>
 <hr />
 <p><a href="mount-optics.html">Previous page</a> | <a href="illumination.html">Next page</a></p>
     </div>
