@@ -15,8 +15,8 @@ You will also need the parts you assembled in previous sections.
 
 ## Prepare the top plate {pagestep}
 
-* Positionate a [heat insert][Heat insert]{qty:4} in each corner of the [top plate][Top plate](fromstep){qty:1}.
-* Apply heat to each [insert][Heat insert] (using a [soldering iron]{qty:1}) and use gentle force to push it into position, as described in the [guide to use heat-set inserts].
+* Positionate a [heat insert][Heat insert]{qty:4} for each corner of the [top plate][Top plate](fromstep){qty:1}.
+* Apply heat to the [insert][Heat-set insert] (using a [soldering iron]{qty:1}) and use gentle force to push it into position as decribed in the [guide to use heat inserts].
 * Repeat this step to put two more [inserts][Heat insert]{qty:2} in the plate to attach the focusing assembly.
 
 ![](images/heat-insert_top-plate.png)
@@ -26,7 +26,7 @@ You will also need the parts you assembled in previous sections.
 
 ## Prepare the standoffs {pagestep}
 
-* Insert a [M3x10mm cap head screw]{qty: 4} into each [standoff][Standoff-M](fromstep){qty: 4, cat:printedpart} using the large hole that comes out the side of [them][Standoff-M]. The screw should poke out the end of the part as shown.
+* Insert a [M3x10mm cap head screw]{qty: 4} into each [standoff][Standoff-M](fromstep){qty: 4, cat:printedpart} using the large hole that comes out the side of the [standoff][Standoff-M]. The screw should poke out the end of the part as shown.
 * Use a [2.5mm ball-ended hex key][2.5mm Ball-end Allen key]{qty:1} to turn the screw.
 
 ![](images/spacer_screw_insertion_1.png)

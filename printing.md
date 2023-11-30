@@ -20,9 +20,10 @@ We recommend the following printer settings:
 |Material       |PLA            |
 |Material Temperature |Recommended by the PLA brand|
 |Layer height   |0.2mm or less  |
-|Infill         |Printer default or more|
+|Infill         |Printer default|
 |Brim           |Recommended for all parts|
 |Slice gap closing radius |0.001mm |
+
 
 Test whether your printer can print the pieces for this station or other open-source designs. Download and print the [leg test] file. This will only use about [5 grams of PLA][PLA filament]{qty: 5g}.
 
@@ -54,11 +55,17 @@ Now you have tested your [3D printer][RepRap-style printer] and [filament][PLA f
 * [Spacer-S]{output,qty:4}: [spacer-4mm.stl](models/spacer-4mm.stl){previewpage}
 * [Spacer-M]{output,qty:2}: [spacer-11mm.stl](models/spacer-11mm.stl){previewpage}
 
+
+>i For the printing do not use less than 15% infill.
+
+
 You can [download all the STLs as a single zipfile](models/STLs.rar) (plates are not included).
 
 ## Clean-up of printed parts {pagestep}
 
->!! **Be careful when removing brim:** To avoid injury, first remove the bulk of the brim without a knife. Remove the remaining brim with a peeling action as described below.
+>!! **Be careful when removing brim**
+>!!
+>!! To avoid injury, first remove the bulk of the brim without a knife. Remove the remaining brim with a peeling action as described below.
 
 Carefully remove the printing brim from all parts. To remove brim:
 

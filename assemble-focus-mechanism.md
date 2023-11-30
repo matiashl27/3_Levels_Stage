@@ -12,6 +12,11 @@
 [Thumbwheel]: models/thumbwheel.stl "{previewpage}"
 [Focusing assembly]: models/focusing-assembly.stl "{previewpage}"
 [Actuator Foot]: models/z_foot.stl "{previewpage}"
+[Tweezers]: parts/tools/tweezers.md "{cat:tool}"
+
+>i **Recomendation** 
+>i 
+>i Use [tweezers][Tweezers]{Qty:1} to aid in picking up small items such as washers and delicate parts.
 
 ## Assemble the thumbwheel {pagestep}
 
@@ -37,7 +42,7 @@
 ![](images/thumbwheel_screwed_in.jpg)
 
 ## Insert the O ring {pagestep}
-* Next, we will insert the [O-ring] to complete the mechanism.
+Next, we will insert the [O-ring] to complete the mechanism.
 
 ![](images/band_insertion_parts.jpg)
 
