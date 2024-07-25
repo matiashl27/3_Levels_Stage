@@ -7,5 +7,6 @@ HATs are plug-and-play modules, making them easy to use and customize for variou
 ![](../../images/pi-hat1.jpg)
 ![](../../images/PI-hat-guide.jpg)
 
+*This is a custom open-source board documented* [here](https://github.com/wenzel-lab/modular-microfluidics-workstation-controller/tree/master/module-pi)
 
 

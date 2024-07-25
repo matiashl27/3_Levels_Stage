@@ -7,7 +7,7 @@ PartData:
         Length: 25mm
         Material: Stainless steel
         Tool needed: Spanner
-        Supplier:  -[Pernos kim](https://pernos-kim.negocio.site/)
+        Supplier:  -[Aliexpress](https://aliexpress.com/item/32968601031.html)
 ---
 
 # M3 HEX screw
