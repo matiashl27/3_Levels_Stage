@@ -1,3 +1,4 @@
+
 name: Deploy Gitbuilding Project to Github Pages
 
 on: [push]
@@ -19,7 +20,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: main
+          BRANCH: post-workshop
           FOLDER: _site/
           # Automatically remove deleted files from the deploy branch
           CLEAN: false

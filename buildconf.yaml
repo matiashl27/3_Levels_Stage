@@ -1,41 +1,87 @@
-# Recommended information
+Affiliation: Latin American Hub for Bioimaging Through Open Hardware (LIBRE hub)
 Authors:
-    - Matías Hurtado Labarca
-
-Affiliation: LIBRE hub
-
-#License: CERN-OHL-1.2
-
-Email: matias.hurtado1@mail.udp.cl
-
-
-#Uncomment below to add custom categories
+  - Pierre Padilla-Huamantinco
+  - Matías Hurtado-Labarca
+  - Tobias Wenzel
+AutoCompleteSubNav: false
 CustomCategories:
-    printedtool:
-        Reuse: True
-        DisplayName: Printed tools
-    printedpart:
-        Reuse: False
-        DisplayName: Printed parts
-    lasercutpart:
-        Reuse: False
-        DisplayName: Laser cut parts
-    stl:
-        Reuse: False
-        DisplayName: Stl's
-
-#Uncomment below to set a custom default category
-#DefaultCategory: printedtool
-
-#Uncomment below to set the title for the bill of material on a page
-#PageBOMTitle: '##For this step you will need'
-
-#Uncomment below to override the project title
-Title: '3 Levels Stage'
-
-#Uncomment below to set a custom Website root for static HTML builds
-#WebsiteRoot: '/path/'
-
-#Uncomment below to disable fussy warnings
-#Fussy: False
-
+  Consumable:
+    DisplayName: Consumables
+    Reuse: true
+  Electronic:
+    DisplayName: Electronic Components
+    Reuse: false
+  LasercutPart:
+    DisplayName: Laser cut Parts
+    Reuse: true
+  Material:
+    DisplayName: Materials
+    Reuse: false
+  Mechanic:
+    DisplayName: Mechanical Components
+    Reuse: false
+  Optical:
+    DisplayName: Optical Components
+    Reuse: false
+  PrintedPart:
+    DisplayName: Printed Parts
+    Reuse: false
+  PrintedTool:
+    DisplayName: Printed Tools
+    Reuse: true
+  SubAssembly:
+    DisplayName: Sub-Assemblies
+    Reuse: false
+Email: librehub@uc.cl
+LandingPage: index.md
+License: CERN-OHL-S-2.0
+Navigation:
+  - Link: 3-level-station.md
+    SubNavigation:
+      - Link: printing.md
+        Title: Print the plastic parts
+      - Link: laser-cutting.md
+        Title: Laser cut the acrylic parts
+      - Link: assemble-focus-mechanism.md
+        Title: Assemble the focus mechanism
+      - Link: basic-optics-module.md
+        Title: Assemble the basics optics module
+      - Link: attach-parts-to-top-plate.md
+        Title: Attach parts to the top plate
+      - Link: attach-parts-to-middle-plate.md
+        Title: Attach parts to the middle plate
+      - Link: attach-parts-to-bottom-plate.md
+        Title: Attach parts to the bottom plate
+      - Link: mount-optics.md
+        Title: Mount the optics
+      - Link: wiring.md
+        Title: Mount the electronics
+      - Link: illumination.md
+        Title: Assemble the illumination
+      - Link: finished.md
+        Title: Assembly complete
+    Title: Build the 3-level microscopy stage
+  - Link: software-installation.md
+    Title: Software Installation
+  - Link: usage.md
+    Title: Use your Stage
+  - Link: variations.md
+    SubNavigation:
+      - Link: variations/Holder-plates/Holder-plates.md
+        Title: V/ Holder plates
+      - Link: variations/3D-print-plates/3D-print-plates.md
+        Title: V/ 3D printable plates
+      - Link: variations/heatsink/heatsink.md
+        Title: V/ 25mm heat sink
+      - Link: variations/2_levels_stage/2_levels_stage.md
+        Title: V/ 2 levels station
+      - Link: variations/Screen-holder/screen-holder.md
+        Title: C/ Screen holder
+      - Link: variations/Individual-holders/Individual-holders.md
+        Title: C/ Individual holders
+      - Link: variations/Syringe-pumps-link/syinge-pumps.md
+        Title: Syringe pumps and interface
+    Title: Variations and complements
+hoverColor: '#555555'
+primaryColor: '#f1502f'
+secondaryColor: '#cccccc'
