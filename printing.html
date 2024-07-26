@@ -2,24 +2,24 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>3 Levels Stage</title>
+    <title>Strobe-enhanced microscopy stage</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="./static/Logo/favicon.ico" />
-<link rel="icon" type="image/png" href="./static/Logo/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="./static/Logo/favicon-16x16.png" sizes="16x16" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" />
 
     <link href="./static/style.css" rel="stylesheet">
-        </head>
+                <link href="./assets/style.css" rel="stylesheet">
+                
+</head>
 <body>
 <header class="site-header">
-    <div class="wrapper">
+    <div class="wrapper header-wrapper" >
         <div class=header-text>
    
-    <h1 class="site-title">3 Levels Stage</h1>
+    <h1 class="site-title">Strobe-enhanced microscopy stage</h1>
    
-    <p class="author">by Matías Hurtado Labarca</p>
-    <p class="affiliation">LIBRE hub</p>
+    <p class="author">by Pierre Padilla-Huamantinco, Matías Hurtado-Labarca, and Tobias Wenzel</p>
+    <p class="affiliation">Latin American Hub for Bioimaging Through Open Hardware (LIBRE hub)</p>
 </div>
             </div>
 </header>
@@ -36,37 +36,89 @@
                 <ul class="nav-list">
                 <li>
     <a class="navhome" href="./">
-        3 Levels Stage
+        Strobe-enhanced microscopy stage
     </a>
 </li>
-<li class="not-active">
-    <a class="not-active" href="./index_BOM.html">
-        Bill of Materials
-    </a>
-    </li>
 <li class="active">
-    <a class="active" href="./printing.html">
-        3D models 
+    <a class="active" href="./3-level-station.html">
+        Build the 3-level microscopy stage
+    </a>
+        <ul class="sub-nav-list">
+                <li>
+            <a class="active" href="./printing.html">
+                Print the plastic parts
+            </a>
+        </li>
+                <li>
+            <a class="not-active" href="./laser-cutting.html">
+                Laser cut the acrylic parts
+            </a>
+        </li>
+                <li>
+            <a class="not-active" href="./assemble-focus-mechanism.html">
+                Assemble the focus mechanism
+            </a>
+        </li>
+                <li>
+            <a class="not-active" href="./basic-optics-module.html">
+                Assemble the basics optics module
+            </a>
+        </li>
+                <li>
+            <a class="not-active" href="./attach-parts-to-top-plate.html">
+                Attach parts to the top plate
+            </a>
+        </li>
+                <li>
+            <a class="not-active" href="./attach-parts-to-middle-plate.html">
+                Attach parts to the middle plate
+            </a>
+        </li>
+                <li>
+            <a class="not-active" href="./attach-parts-to-bottom-plate.html">
+                Attach parts to the bottom plate
+            </a>
+        </li>
+                <li>
+            <a class="not-active" href="./mount-optics.html">
+                Mount the optics
+            </a>
+        </li>
+                <li>
+            <a class="not-active" href="./wiring.html">
+                Mount the electronics
+            </a>
+        </li>
+                <li>
+            <a class="not-active" href="./illumination.html">
+                Assemble the illumination
+            </a>
+        </li>
+                <li>
+            <a class="not-active" href="./finished.html">
+                Assembly complete
+            </a>
+        </li>
+            </ul>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./software/software-installation.html">
+        Software Installation
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="./testpage1.html">
-        Building
+    <a class="not-active" href="./usage.html">
+        Use your Stage
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="./testpage2.html">
-        Screen holder
+    <a class="not-active" href="./troubleshooting.html">
+        Troubleshooting
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="./electronics.html">
-        Electronics Assembly
-    </a>
-    </li>
-<li class="not-active">
-    <a class="not-active" href="./code.html">
-        Codes
+    <a class="not-active" href="./variants_accesories.html">
+        Customisation and accessories
     </a>
     </li>
 
@@ -74,18 +126,101 @@
             </nav>
         </div>
         <div class="wrapper">
-    <h1 id="3d-models">3D models</h1>
+    <h1 id="print-the-plastic-parts">Print the plastic parts</h1>
+<div class="pagebom">
+<h3 id="tool">Tools</h3>
 <ul>
-<li>To have access to the editable files go to the </li>
+<li>1 <a Class="bom" href="parts/tools/precision-wire-cutters.html">Precision wire cutter</a> </li>
+<li>1 <a Class="bom" href="parts/tools/rep-rap.html">RepRap-style printer</a> </li>
+<li>1 <a Class="bom" href="parts/tools/utility-knife.html">Utility knife</a>    - Not a scalpel!</li>
 </ul>
-<h3 id="onshape-link"><a href="https://cad.onshape.com/documents/56f3731ad1d54872e3d730b5/w/79a6f9b65ec1b22fe0bc7f1a/e/21be0d722dc31f7ce9321213?renderMode=0&uiState=646cd2865bd39b26be6ed6b3" target="_blank">OnShape link</a>.</h3>
-<h3 id="_1"><a href="https://cad.onshape.com/documents/56f3731ad1d54872e3d730b5/w/79a6f9b65ec1b22fe0bc7f1a/e/21be0d722dc31f7ce9321213?renderMode=0&uiState=646cd2865bd39b26be6ed6b3" target="_blank"><img alt="" src="images/onshape-logo.png" title="" /></a>.</h3>
+<h3 id="material">Materials</h3>
 <ul>
-<li>Or download all the stl files here</li>
+<li>50 g of <a Class="bom" href="parts/materials/black_pla_filament.html">Black PLA filament</a> </li>
+<li>205 g of <a Class="bom" href="parts/materials/pla_filament.html">PLA filament</a>    - Of any colour you want</li>
 </ul>
-<h3 id="stl-files"><a href="stls.html">Stl files</a></h3>
+</div>
+<h2 class="page-step" id="set-your-printer-settings">Step 1: Set your printer settings</h2>
+<p>Almost all station parts can be printed out of <a href="parts/materials/pla_filament.html">PLA filament</a> on most <a href="parts/tools/rep-rap.html">RepRap-style printers</a>.</p>
+<p>We recommend the following printer settings:</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Material</td>
+<td>PLA</td>
+</tr>
+<tr>
+<td>Material Temperature</td>
+<td>Recommended by the PLA brand</td>
+</tr>
+<tr>
+<td>Layer height</td>
+<td>0.2mm or less</td>
+</tr>
+<tr>
+<td>Infill</td>
+<td>Printer default or more</td>
+</tr>
+<tr>
+<td>Brim</td>
+<td>Recommended for all parts</td>
+</tr>
+<tr>
+<td>Slice gap closing radius</td>
+<td>0.001mm</td>
+</tr>
+</tbody>
+</table>
+<p>Test whether your printer can print the pieces for this station or other open-source designs. Download and print the <a href="models/leg_test.html">leg test</a> file. This will only use about <a href="parts/materials/pla_filament.html">5 grams of PLA</a>.</p>
+<p>The result should look like this (this has been printed with a brim):</p>
+<p><img alt="" src="images/just_leg_test.jpg" title="" /></p>
+<p>As a general rule, strength is more important than surface finish, so very thin layers (less than 0.15mm or so) are unlikely to result in a station that performs any better, though it may approve the appearance.</p>
+<h2 class="page-step" id="printing">Step 2: Printing</h2>
+<p>Now you have tested your <a href="parts/tools/rep-rap.html">3D printer</a> and <a href="parts/materials/pla_filament.html">filament</a> you can print the following parts:</p>
+<ul>
+<li>Actuator assembly tools (<a name="output__nut-tool"></a>nut tool, <a name="output__band-tool"></a>band tool, and <a name="output__band-tool-cover"></a>band tool cover): <a href="models/actuator-assembly-tools.html" title="">actuator_assembly_tools.stl</a></li>
+<li><a name="output__focusing-assembly"></a>Focusing assembly: <a href="models/focusing-assembly.html" title="">focusing-assembly.stl</a></li>
+<li><a name="output__actuator-foot"></a>Actuator Foot: <a href="models/z_foot.html" title="">z_foot.stl</a></li>
+<li><a name="output__thumbwheel"></a>Thumbwheel: <a href="models/thumbwheel.html" title="">thumbwheel.stl</a></li>
+<li><a name="output__pi-camera-platform"></a>Pi camera platform: <a href="models/camera-platform.html" title="">camera-platform.stl</a></li>
+<li><a name="output__lens-spacer"></a>Lens spacer: <a href="models/lens-spacer.html" title="">lens-spacer.stl</a> - <strong>This must be printed in <a href="parts/materials/black_pla_filament.html">black</a>!</strong></li>
+<li><a name="output__illumination-base"></a>Illumination base: <a href="models/illumination-base.html" title="">illumination-base.stl</a> - <strong>This must be printed with supports</strong></li>
+<li><a name="output__illumination-slider"></a>Illumination slider: <a href="models/illumination-slider.html" title="">illumination-slider.stl</a></li>
+<li><a name="output__illumination-thumbscrew"></a>Illumination thumbscrew: <a href="models/illumination-thumbscrew.html" title="">illumination-thumbscrew.stl</a></li>
+<li><a name="output__illumination-arm"></a>Illumination arm: <a href="models/led-arm.html" title="">led-arm.stl</a> - <strong>This must be printed with supports</strong></li>
+<li><a name="output__hinge-pin"></a>Hinge pin: <a href="models/arm-pin.html" title="">arm-pin.stl</a></li>
+<li><a name="output__led-cover"></a>LED cover: <a href="models/led-cover.html" title="">led-cover.stl</a></li>
+<li><a name="output__standoff-s"></a>Standoff-S: <a href="models/standoff-S.html" title="">standoff-S.stl</a></li>
+<li><a name="output__standoff-m"></a>Standoff-M: <a href="models/standoff-M.html" title="">standoff-M.stl</a></li>
+<li><a name="output__foot-m"></a>Foot-M: <a href="models/foot-M.html" title="">foot-M.stl</a></li>
+<li><a name="output__spacer-s"></a>Spacer-S: <a href="models/spacer-4mm.html" title="">spacer-4mm.stl</a></li>
+<li><a name="output__spacer-m"></a>Spacer-M: <a href="models/spacer-11mm.html" title="">spacer-11mm.stl</a></li>
+</ul>
+<p>You can <a href="models/STLs.rar" title="">download all the STLs as a single zipfile</a> (plates are not included).</p>
+<h2 class="page-step" id="clean-up-of-printed-parts">Step 3: Clean-up of printed parts</h2>
+<div class="warning-block">
+<p><strong>Be careful when removing brim:</strong> To avoid injury, first remove the bulk of the brim without a knife. Remove the remaining brim with a peeling action as described below.</p>
+</div>
+<p>Carefully remove the printing brim from all parts. To remove brim:</p>
+<ol>
+<li>Use <a href="parts/tools/precision-wire-cutters.html">precision wire cutters</a> to remove most of the brim from the part.</li>
+<li>Clean up the remaining brim with a <a href="parts/tools/utility-knife.html">utility knife</a>:<ul>
+<li>Hold the knife in your dominant hand with 4 fingers curled around the handle, leaving your thumb free.</li>
+<li>Hold the part in your other hand, as far away from the surface, to be cut as possible.</li>
+<li>Support the part with the thumb of your dominant hand.</li>
+<li>Place the blade on the surface to be cut, and carefully close your dominant hand, moving the blade, under control, towards your thumb.</li>
+</ul>
+</li>
+</ol>
+<p><img alt="" src="images/BrimRemoval.png" title="" /></p>
 <hr />
-<p><a href="index_BOM.html">Previous page</a> | <a href="testpage1.html">Next page</a></p>
+<p><a href="3-level-station_BOM.html">Previous page</a> | <a href="laser-cutting.html">Next page</a></p>
     </div>
 </div>
 <footer class="site-footer">
@@ -94,8 +229,9 @@
     <img class="icon" src="./static/Logo/GitBuilding500x.png" alt="GitBuilding logo">
     <span class="info">Documentation powered by GitBuilding</span>
 </a>
-    <p class="author">©2023 Matías Hurtado Labarca</p>
-    <p class="email">Contact: <a href="mailto:matias.hurtado1@mail.udp.cl">matias.hurtado1@mail.udp.cl</a></p>
+    <p class="author">©2023 Pierre Padilla-Huamantinco, Matías Hurtado-Labarca, and Tobias Wenzel</p>
+    <p class="email">Contact: <a href="mailto:librehub@uc.cl">librehub@uc.cl</a></p>
+    <p class="license">Strobe-enhanced microscopy stage is released under <a href="license.html">CERN-OHL-S-2.0</a>.</p>
 
     </div>
 </footer></body>
