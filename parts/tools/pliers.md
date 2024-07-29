@@ -5,3 +5,4 @@ Used for gripping and manipulating small objects in tight or hard-to-reach space
 
 ![](../../images/pliersLCC.jpg)
 
+*Supplier:* [Easy](https://www.easy.cl/alicate-de-punta-6-mk-0104-makawa-1287232/p)

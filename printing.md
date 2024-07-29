@@ -30,11 +30,15 @@ The result should look like this (this has been printed with a brim):
 
 ![](images/just_leg_test.jpg)
 
-As a general rule, strength is more important than surface finish, so very thin layers (less than 0.15mm or so) are unlikely to result in a station that performs any better, though it may approve the appearance.
+As a general rule, strength is more important than surface finish, so very thin layers (less than 0.15mm or so) are unlikely to result in a station that performs any better, though it may improve the appearance.
 
-## Printing {pagestep}
+##Download and Printing {pagestep}
 
-Now you have tested your [3D printer][RepRap-style printer] and [filament][PLA filament]{qty: 200g, note:"Of any colour you want"} you can print the following parts:
+Now that you have tested your [3D printer][RepRap-style printer] and [filament][PLA filament]{qty: 200g, note: "Of any color you want"} you can print the plastic parts:
+
+You can have access to all the STLs in [**Printables**](https://www.printables.com/model/647564) or go for free to our [**Online CAD software**](https://cad.onshape.com/documents/56f3731ad1d54872e3d730b5/w/79a6f9b65ec1b22fe0bc7f1a/e/d497faac00a6e40fe8fec4e7) to make your own version. You can also download them individually here:
+
+
 
 * Actuator assembly tools ([nut tool]{output,qty:1}, [band tool]{output,qty:1}, and [band tool cover]{output,qty:1}): [actuator_assembly_tools.stl](models/actuator-assembly-tools.stl){previewpage}
 * [Focusing assembly]{output,qty:1}: [focusing-assembly.stl](models/focusing-assembly.stl){previewpage}
@@ -54,11 +58,11 @@ Now you have tested your [3D printer][RepRap-style printer] and [filament][PLA f
 * [Spacer-S]{output,qty:4}: [spacer-4mm.stl](models/spacer-4mm.stl){previewpage}
 * [Spacer-M]{output,qty:2}: [spacer-11mm.stl](models/spacer-11mm.stl){previewpage}
 
-You can [download all the STLs as a single zipfile](models/STLs.rar) (plates are not included).
+
 
 ## Clean-up of printed parts {pagestep}
 
->!! **Be careful when removing brim:** To avoid injury, first remove the bulk of the brim without a knife. Remove the remaining brim with a peeling action as described below.
+>!! **Be careful when removing the brim:** To avoid injury, first remove the bulk of the brim without a knife. Remove the remaining brim with a peeling action as described below.
 
 Carefully remove the printing brim from all parts. To remove brim:
 
